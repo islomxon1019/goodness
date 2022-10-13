@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main nav li a{
+    text-decoration: none;
+}
+.fa-cart-plus {
+    margin: auto;
+    margin-top: 15px;
+    font-size: 20pt ;
+    color: blue;
+}
+.a1{
+    background-color: #f6f6fe;
+}
+.fa-dollar-sign{
+    margin-left: 7px;
+    margin-top: 15px;
+    font-size: 20pt ;
+    background: #e0f8e9;
+    color: green;
+}
+.fa-user{
+    margin-left: 3px;
+    margin-top: 15px;
+    font-size: 20pt ;
+    background: #ffecdf;
+   color: chocolate;
+}
+.divimg{
+   background-image: url(NiceAdmin\ Bootstrap\ Template\ Demo\ и\ еще\ 2\ страницы\ —\ Личный_\ Microsoft​\ Edge\ 06.10.2022\ 15_13_31.png);
+   background-size: cover;
+
+}
+.img1{
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+.fa-circle{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.rasm2{
+    background-size: cover;
+    background-image: url(rasm.jpg);    
+    height: 100px;
+    margin-top: 800px;
+
+
+}

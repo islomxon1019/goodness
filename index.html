@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+     
+    <header>
+        <nav style="z-index: 34;" class="navbar bg-white shadow bg-body rounded position-fixed w-100">
+            <div class="container-fluid"  style="justify-content: flex-start !important;">
+              <a class="navbar-brand"> <img src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/logo.png" alt=""> NiceAdmin</a>
+              <a href="" class="ms-5"><i class="fa-solid fa-bars"></i></a>
+              <form class="d-flex" role="search">
+                <input  class="form-control me-2 ms-5" type="search" placeholder="Search" aria-label="Search">
+              </form>
+              <div class="d-inline-flex  ms-5" style="justify-content: flex-end; width: 60%;">
+                <button type="button" class="border border-white bg-white position-relative me-3">
+                    <i class="fa-regular fa-bell"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                      4
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </button>
+                  <button type="button" class="border border-white bg-white position-relative ms-1 me-3">
+                    <i class="fa-regular fa-message"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                      4
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </button>
+                  <div class="d-inline-flex">
+                    <img width="50px" class="rounded-circle" src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/profile-img.jpg
+                    " alt="">
+                  </div>
+                  <div class="dropdown d-inline-flex">
+                    <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        K. Anderson
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu">
+                      <li><a class="dropdown-item active" href="#">Action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+
+          </nav>
+    </header>
+
+                 <main class="w-100 bg-info d-flex justify-content-end" style=" width: 90%;">
+                    <section class="bg-success d-flex justify-content-start" style=" width: 80%; height: 100vh;">
+                      <div style="height: 80px; width: 100%; margin-top: 90px;position: absolute; z-index: 2;" class=" bg-info align-items-center">
+                        <h3 >Dashboard</h3>
+                          <nav>
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item"><a href=""> home</a></li>
+                              <li class="breadcrumb-item active"> dashboard</li>
+                            </ol>
+                          </nav>
+                      </div>
+
+
+                      <div style="margin-top: 200px; height: 250vh;" class="d-inline-flex col-xl-8 row bg-danger ms-1 card-body"> 
+                          <div style="height: 140px; width: 30%;" class=" bg-info ms-3 d-block  ">
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item "><a  href=""> Sales </a></li>
+                              <li class="breadcrumb-item active "> Today</li>
+                              <div style="margin-left: 100px; border-radius: 20px; height: 20px; align-items: center;" class="filter">
+                                <a class="icon" href=""  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i  class="fa-solid fa-ellipsis"></i></a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                            </ol>
+                        
+                          <div style="height: 80px;" class="bg-primary w-100  row d-inline-flex card-icon align-items-center">
+                          <div style="height: 60px; border-radius: 200px;" class="col-xl-3  justify-content-center  ms-1 a1"> <i class="fa-solid fa-cart-plus "></i></div>
+                          <div style="height: 60px;" class="col-xl-8 bg-white">
+                          <h5>145</h5>
+                          <span class="text-success small pt-1 fw-bold">12%</span>
+                          <span class="text-muted small pt-2 ps-1">increase</span>
+                          </div>
+                          </div>
+                          </div>
+
+
+
+                          <div style="height: 140px; width: 30%;" class=" bg-info ms-3 d-block  ">
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item "><a  href=""> Revenue</a></li>
+                              <li class="breadcrumb-item active ">  This Month                              </li>
+                              <div style="margin-left: 40px; border-radius: 20px; height: 20px; align-items: center;" class="filter">
+                                <a class="icon" href=""  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i  class="fa-solid fa-ellipsis"></i></a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                            </ol>
+                        
+                          <div style="height: 80px;" class="bg-primary w-100  row d-inline-flex card-icon align-items-center">
+                          <div style="height: 60px; border-radius: 200px;" class="col-xl-3  justify-content-center  ms-1 a1"><i class="fa-solid fa-dollar-sign"></i></div>
+                          <div style="height: 60px;" class="col-xl-8 bg-white">
+                          <h5>$3,264</h5>
+                          <span class="text-success small pt-1 fw-bold">8%</span>
+                          <span class="text-muted small pt-2 ps-1">increase</span>
+                          </div>
+                          </div>
+                          </div>
+
+                         
+
+                          
+                          <div style="height: 140px; width: 30%;" class=" bg-info ms-3 d-block  ">
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item "><a  href=""> Customers</a></li>
+                              <li class="breadcrumb-item active ">  This Year</li>
+                              <div style="margin-left: 40px; border-radius: 20px; height: 20px; align-items: center;" class="filter">
+                                <a class="icon" href=""  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i  class="fa-solid fa-ellipsis"></i></a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                            </ol>
+                        
+                          <div style="height: 80px;" class="bg-primary w-100  row d-inline-flex card-icon align-items-center">
+                          <div style="height: 60px; border-radius: 200px;" class="col-xl-3  justify-content-center  ms-1 a1"> <i class="fa-solid fa-user"></i></div>
+                          <div style="height: 60px;" class="col-xl-8 bg-white">
+                          <h5>1244</h5>
+                          <span class="text-success small pt-1 fw-bold">12%</span>
+                          <span class="text-muted small pt-2 ps-1">decrease </span>
+                          </div>
+                          </div>
+                          </div>
+                          <div style="height: 500px; margin-top: -230px;" class="col-xl-12 bg-success divimg"></div>
+                          <div style="height: 400px; margin-top: -220px;" class="col-xl-12 bg-white">
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item "><a  href=""> Recent Sales</a></li>
+                              <li class="breadcrumb-item active "> Today </li>
+                              <div style="margin-left: 620px; border-radius: 20px; height: 20px; align-items: center;" class="filter">
+                                <a class="icon" href=""  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i  class="fa-solid fa-ellipsis"></i></a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                            </ol>
+                            <div style="height: 70px;" class="col-xl-12 bg-white align-items-center d-flex ">
+                            <select name="" id="">
+                              <option value="">5</option>
+                              <option selected value="">10</option>
+                              <option value="">15</option>
+                              <option value="">20</option>
+                              <option value="">25</option>
+                            </select>
+                            <span > entries per page</span>
+                            
+                            <input class="ms-auto p-2" type="search" placeholder="search...">
+                          </div>
+                          
+                          <div class="col-xl-12 ">
+                            <table class="table">
+                              <thead class="table-dark">
+                                <tr>
+                                  <td>#</td>
+                                  <td>customer</td>
+                                  <td>Product</td>
+                                  <td>Price</td>
+                                  <td>status</td>
+                                </tr>
+                                  
+                                
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>#2457</td>
+                                  <td>brandon jacob</td>
+                                  <td><a href="">At praesentium minu</a></td>
+                                  <td>$64</td>
+                                  <td><span style=" color: white; border-radius: 15px;"  class="bg-success ">apparowed</span></td>
+                                </tr>
+                                <tr>
+                                  <td>##2049</td>
+                                  <td>Ashleigh Langosh</td>
+                                  <td><a href="">	At recusandae consectetur</a></td>
+                                  <td>	$147</td>
+                                  <td><span style=" color: white; border-radius: 15px;"  class="bg-success ">apparowed</span></td>
+                                </tr>
+                                <tr>
+                                  <td>#2147</td>
+                                  <td> Bridie Kessler</td>
+                                  <td><a href="">Blanditiis dolor omnis similiqueu</a></td>
+                                  <td>	$47</td>
+                                  <td><span style=" color: white; border-radius: 15px;"  class="bg-warning ">pending</span></td>
+                                </tr>
+                                <tr>
+                                  <td>#2644</td>
+                                  <td>Raheem Lehner</td>
+                                  <td><a href="">Sunt similique distinctio</a></td>
+                                  <td>$165</td>
+                                  <td><span style=" color: white; border-radius: 15px;"  class="bg-success ">apparowed</span></td>
+                                </tr>
+                                <tr>
+                                  <td>#2644</td>
+                                  <td>	Angus Grady</td>
+                                  <td><a href="">Angus Grady</a></td>
+                                  <td>$67</td>
+                                  <td><span style=" color: white; border-radius: 15px;"  class="bg-danger ">Rejected</span></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <span>Showing 1 to 5 of 5 entries</span>
+
+                          </div>
+                          </div>
+
+
+
+
+                          <div style="height: 470px; margin-top: -220px;" class="col-xl-12 bg-white">
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item "><a  href=""> Top Selling/</li>
+                              <li class="breadcrumb-item active "> Today </li>
+                              <div style="margin-left: 650px; border-radius: 20px; height: 20px; align-items: center;" class="filter">
+                                <a class="icon" href=""  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i  class="fa-solid fa-ellipsis"></i></a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                            </ol>
+                            
+                          
+                          <div class="col-xl-12 ">
+                            <table class="table">
+                              <thead class="">
+                                <tr>
+                                  <td>Preview</td>
+                                  <td>Product</td>
+                                  <td>PRICE</td>
+                                  <td>SOLD</td>
+                                  <td>Revenue</td>
+                                </tr>
+                                  
+                                
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td><img class="img1" src="	https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-1.jpg" alt=""></td>
+                                  <td><a href="">	Ut inventore ipsa voluptas nulla</a></td>
+                                  <td>	$64</td>
+                                  <td>	124</td>
+                                  <td>	$5,828</td>
+                                </tr>
+
+                                <tbody>
+                                  <tr>
+                                    <td><img class="img1" src="	https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-2.jpg" alt=""></td>
+                                    <td><a href="">	Ut inventore ipsa voluptas nulla</a></td>
+                                    <td>	$64</td>
+                                    <td>	124</td>
+                                    <td>	$5,828</td>
+                                  </tr>
+
+                                  <tbody>
+                                    <tr>
+                                      <td><img class="img1" src="https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-3.jpg" alt=""></td>
+                                      <td><a href="">	Ut inventore ipsa voluptas nulla</a></td>
+                                      <td>	$64</td>
+                                      <td>	124</td>
+                                      <td>	$5,828</td>
+                                    </tr>
+
+                                    <tbody>
+                                      <tr>
+                                        <td><img class="img1" src="	https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-4.jpg" alt=""></td>
+                                        <td><a href="">	Ut inventore ipsa voluptas nulla</a></td>
+                                        <td>	$64</td>
+                                        <td>	124</td>
+                                        <td>	$5,828</td>
+                                      </tr>
+
+                                      <tbody>
+                                        <tr>
+                                          <td><img class="img1" src="	https://bootstrapmade.com/demo/templates/NiceAdmin/assets/img/product-5.jpg" alt=""></td>
+                                          <td><a href="">	Ut inventore ipsa voluptas nulla</a></td>
+                                          <td>	$64</td>
+                                          <td>	124</td>
+                                          <td>	$5,828</td>
+                                        </tr>
+
+                             
+                              </tbody>
+                            </table>
+                           
+
+                          </div>
+                          </div>
+                          
+                      </div>
+
+
+
+
+
+
+
+
+                      <div style=" height: 200vh; margin-top: 200px;" class="row bg-warning ms-2 col-xl-4">
+                       <div style=" height: 70vh; width: 100%; background-color: blueviolet; "> 
+                        <div style="height: 70px;" class="col-xl-10 d-inline-flex  mt-2">
+                        <ul  class="d-inline-flex ">
+                          <li class="d-inline-flex"><div style=" height: 50px;" class="d-inline-flex col-xl-4"><span style="color: gray;">32 min</span> <i class="fa-solid fa-circle text-success"></i></div> <div> <span style="color: grey;">Quia quae rerum</span><span>explicabo officiis </span> <span style="color: gray;">beatae</span></li></div>
+                        </ul>
+                        <div style="height: 70px;" class="col-xl-10 b-inline-flex mt-2 ">
+                          <ul  class="d-inline-flex ">
+                            <li class="d-inline-flex"><div style=" height: 50px;" class="d-inline-flex col-xl-4"><span style="color: gray;">32 min</span> <i class="fa-solid fa-circle  text-danger"></i></div> <div> <span style="color: grey;">Quia quae rerum</span><span>explicabo officiis </span> <span style="color: gray;">beatae</span></li></div>
+                          </ul>
+                          
+                            <div style="height: 70px;" class="col-xl-10 d-inline-flex  mt-2">
+                            <ul  class="d-inline-flex ">
+                              <li class="d-inline-flex"><div style=" height: 50px;" class="d-inline-flex col-xl-4"><span style="color: gray;">32 min</span> <i class="fa-solid fa-circle text-primary"></i></div> <div> <span style="color: grey;">Quia quae rerum</span><span>explicabo officiis </span> <span style="color: gray;">beatae</span></li></div>
+                            </ul>
+                            
+                              <div style="height: 70px;" class="col-xl-10 d-inline-flex  mt-2">
+                              <ul  class="d-inline-flex ">
+                                <li class="d-inline-flex"><div style=" height: 50px;" class="d-inline-flex col-xl-4"><span style="color: gray;">32 min</span> <i class="fa-solid fa-circle text-info"></i></div> <div> <span style="color: grey;">Quia quae rerum</span><span>explicabo officiis </span> <span style="color: gray;">beatae</span></li></div>
+                              </ul>
+                          
+                                <div style="height: 70px;" class="col-xl-10 d-inline-flex  mt-2">
+                                <ul  class="d-inline-flex ">
+                                  <li class="d-inline-flex"><div style=" height: 50px;" class="d-inline-flex col-xl-4"><span style="color: gray;">32 min</span> <i class="fa-solid fa-circle text-warning"></i></div> <div> <span style="color: grey;">Quia quae rerum</span><span>explicabo officiis </span> <span style="color: gray;">beatae</span></li></div>
+                                </ul>
+                              
+                                  <div style="height: 70px;" class="col-xl-10 d-inline-flex  mt-2">
+                                  <ul  class="d-inline-flex ">
+                                    <li class="d-inline-flex"><div style=" height: 50px;" class="d-inline-flex col-xl-4"><span style="color: gray;">32 min</span> <i class="fa-solid fa-circle text-secondary"></i></div> <div> <span style="color: grey;">Quia quae rerum</span><span>explicabo officiis </span> <span style="color: gray;">beatae</span></li></div>
+                                  </ul>
+                                 
+                                </div>
+                                
+                        <div class="row col-xl-12 img-fluid rasm2"></div>
+
+                        
+                      </div></div>
+                        
+                      </div>
+                        <section>
+                 </main>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+                 <footer class="position-fixed bg-primary" style="height: 100vh; width: 20%; margin-top: -675px;">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <li><a class="fs-6 text-center" href="">Dashboard</a></li>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Components
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                       <li><a href="">Alert</a></li>
+                       <li><a href="">Acordion</a></li>
+                       <li><a href="">Badge</a></li>
+                       <li><a href="">Breadcurmbs</a></li>
+                       <li><a href="">Buttons</a></li>
+                       <li><a href="">Cards</a></li>
+                       <li><a href="">Carousel</a></li>
+                       <li><a href="">List group</a></li>
+                       <li><a href="">Modal</a></li>
+                       <li><a href="">Tabs</a></li>
+                       <li><a href="">Pagination</a></li>
+                       <li><a href="">Progress</a></li>
+                       <li><a href="">Spinners</a></li>
+                       <li><a href="">Tooltips</a></li>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Forms
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                           <li><a href="">Fomr Elements</a></li>
+                           <li><a href="">Form Layout</a></li>
+                           <li><a href="">Form Editors</a></li>
+                           <li><a href="">Form Validation</a></li>
+                                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo">
+                            Tables
+                          </button>
+                        </h2>
+                        <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                          <li><a href="">DAta tables</a></li>
+                          <li><a href="">General tables</a></li>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            CHarts
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                          <li><a href="">charst.js</a></li>
+                          <li><a href="">ApexСРart</a></li>
+                          <li><a href="">Echarts</a></li>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo">
+                            icons
+                          </button>
+                        </h2>
+                        <div id="collapseTwo3" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                          <li><a href="">Bootstrap icons</a></li>
+                          <li><a href="">Remix icons</a></li>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+   
+</body>
+</html>
